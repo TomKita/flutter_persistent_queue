@@ -9,14 +9,14 @@ issue_tracker: https://github.com/oakromulo/flutter_persistent_queue/issues
 
 environment:
   flutter: ">=1.12.13+hotfix.5 <2.0.0"
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  localstorage: ^3.0.2+5
+  localstorage: ^4.0.0+1
 
 dev_dependencies:
   flutter_driver:
     sdk: flutter
-  test: any
+  test: ^1.16.5
