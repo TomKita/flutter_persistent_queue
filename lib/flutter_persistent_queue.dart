@@ -196,7 +196,7 @@ class PersistentQueue {
   void _resetDeadline() => _deadline = _nowUtc.add(_config!.flushTimeout!);
 
   Future<List> _toList() async {
-    if ((_len ?? 0) < 1) {
+    if (_len < 1) {
       return [];
     }
 
